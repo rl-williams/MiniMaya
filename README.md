@@ -34,6 +34,3 @@ Project completed individually over the course of two months. Added final featur
   - toggle anti-aliasing
 - Animation (implemented by group member)
 - Deformation (implemented by group member)
-
-Interactive 3D geometry manipulator, 
-OBJ loader and exporter, half-edge data structure, Catmull-Clark subdivision, skeletons/joints, and shader-based skin deformation. Also pesonally implemented raytracing with lambert, phong, reflective, and refractive surfaces and anti-aliasing.
