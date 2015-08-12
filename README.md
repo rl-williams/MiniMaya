@@ -3,7 +3,9 @@
 [Cannot upload full code due to academic integrity restrictions.]
 
 ## description
-Interactive 3D geometry manipulator. A mini version (in essence) of Autodesk's Maya modeling program. Created for Computer Graphics (CIS 277) at the University of Pennsylvania. Created in Qt Creator using C++ and OpenGL.
+Interactive 3D geometry manipulator created in Qt Creator using C++ and OpenGL. A mini version (in essence) of Autodesk's Maya modeling program. Created for Computer Graphics (CIS 277) at the University of Pennsylvania.
+
+Project completed individually over the course of two months. Added final features (freeform deformation lattice, keyframe animation, raytraced scene output) as a group of three, in which I was personally responsible for the latter feature.
 
 ## features
 - OBJ Loader and Exporter
@@ -18,10 +20,24 @@ Interactive 3D geometry manipulator. A mini version (in essence) of Autodesk's M
   - split an edge evenly into two edges (and its symmetric edge into two as well) using the "add" button while an edge is selected
   - change face color using RGB sliders
   - split a quadratic face evenly/diagonally into two triangles using the "triangulate" button while a face is selected
+  - smooth mesh via Catmull-Clark subdivision techniques using the "smooth" button (cube converges to a spherical shape when smoothed multiple times)
+- Joint and Skin Deformation
+  - load a JSON file that describes a skeleton joint heirarchy and attributes; joints become visible on screen and may be transformed using translation and rotation buttons
+  - select the "skin" button while a joint of the skeleton is selected (from the auto-produced list of elements) to give joints influence over vertices (amount of influence is determined by proximity).
+  - once a mesh has been "skinned," the user may again select and manipulate joints; this time, vertices are transformed based on the joints that influence them via a shader-based skin deformation.
 
-## issues
 
-## credit
+
+
+
+
+
+
+
+
+- Raytracing
+- Animation (implemented by group member)
+- Deformation (implemented by group member)
 
 Interactive 3D geometry manipulator, 
-OBJ loader and exporter, half-edge data structure, Catmull-Clark subdivision, skeletons/joints, and shader-based skin deformation. Also per- sonally implemented raytracing with lambert, phong, reflective, and refractive surfaces and anti-aliasing.
+OBJ loader and exporter, half-edge data structure, Catmull-Clark subdivision, skeletons/joints, and shader-based skin deformation. Also pesonally implemented raytracing with lambert, phong, reflective, and refractive surfaces and anti-aliasing.
