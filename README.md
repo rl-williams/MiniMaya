@@ -25,17 +25,8 @@ Project completed individually over the course of two months. Added final featur
   - load a JSON file that describes a skeleton joint heirarchy and attributes; joints become visible on screen and may be transformed using translation and rotation buttons
   - select the "skin" button while a joint of the skeleton is selected (from the auto-produced list of elements) to give joints influence over vertices (amount of influence is determined by proximity).
   - once a mesh has been "skinned," the user may again select and manipulate joints; this time, vertices are transformed based on the joints that influence them via a shader-based skin deformation.
-
-
-
-
-
-
-
-
-
-
 - Raytracing
+  - diffuse and reflected color sliders
 - Animation (implemented by group member)
 - Deformation (implemented by group member)
 
