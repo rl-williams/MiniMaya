@@ -26,7 +26,12 @@ Project completed individually over the course of two months. Added final featur
   - select the "skin" button while a joint of the skeleton is selected (from the auto-produced list of elements) to give joints influence over vertices (amount of influence is determined by proximity).
   - once a mesh has been "skinned," the user may again select and manipulate joints; this time, vertices are transformed based on the joints that influence them via a shader-based skin deformation.
 - Raytracing
-  - diffuse and reflected color sliders
+  - adjust material and attributes, then output a .BMP image file
+  - select material: phong, transparent, mirror, or RGB-valued normals
+  - adjust material using diffuse and reflected color sliders and specularity and refractive index sliders
+  - adjust light position and light color
+  - adjust ray depth (the total maximum recursion depth of any ray in the scene) and the number of shadows (1 for hard shadows; add more to make shadows softer)
+  - toggle anti-aliasing
 - Animation (implemented by group member)
 - Deformation (implemented by group member)
 
